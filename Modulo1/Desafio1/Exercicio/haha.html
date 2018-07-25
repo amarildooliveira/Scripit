@@ -1,0 +1,66 @@
+<html>
+
+<head>
+
+</head>
+<style>
+
+#corpo div{
+    padding: 2px;
+   border: black;
+}
+body{
+    background: url("https://images.pexels.com/photos/746421/pexels-photo-746421.jpeg?auto=compress&cs=tinysrgb&h=350");
+    background-size: cover;
+}
+</style>
+
+
+<body>
+        <div id="corpo">
+    <div>
+        <input type="text" placeholder="Nome">
+    </div>
+    <div>
+        <input type="email" placeholder="E-mail">
+    </div>
+    <input type="radio" name="sexo" id="f">
+    <label for="f">Feminino</label>
+
+
+    <input type="radio" name="sexo" id="m">
+    <label for="m">Masculino</label>
+    <fieldset>
+        <legend>Cursos</legend>
+        <div>
+            <input type="checkbox" id="web">
+            <label for="web">Curso de Programação Web</label>
+        </div>
+        <div>
+            <input type="checkbox" id="mobile">
+            <label for="mobile">Curso de Programação Mobile</label>
+        </div>
+        <div>
+            <input type="checkbox" id="desktop">
+            <label for="desktop">Curso de Programação Desktop</label>
+        </div>
+    </fieldset>
+    <select>
+
+        <option value="">Select</option>
+        <option value="MS" selected>Mato Grosso do Sul</option>
+        <option value="PR">Paraná</option>
+
+
+    </select>
+    <div>
+        <input type="datetime-local">
+    </div>
+</div>
+
+<label for="foto">Arquivo</label>
+<input type="file" id="foto">
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+body{
+padding: 150px 10px 10px 400px;
+background: url("https://images.pexels.com/photos/872958/pexels-photo-872958.jpeg?auto=compress&cs=tinysrgb&h=350");
+background-size: cover;
+}
+#calculadora{
+text-align: center;
+padding: 20px 10px 10px 10px;
+height: 300px;
+width: 500px;
+background:burlywood;
+border-radius: 10px; 
+}
+#calculadora div{
+padding: 5px;
+}
+#calculadora input{
+    width: 100%;
+    padding: 10px;
+}
+#calculadora button{
+    width: 100%;
+    padding: 10px;
+}

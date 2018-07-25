@@ -1,0 +1,113 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="ahah.css">
+    <script src="js/apagar2.js"></script>
+</head>
+
+<body>
+   
+    <nav id="menu">
+
+       <img src="img/cancel.svg" class="menu_Fechar" onclick="menuFechar()">
+        <h1 class="centro">Menu</h1>
+        <ul>
+            <li>Cursos</li>
+            <li>Professor</li>
+            <li>Aluno</li>
+            <li>Sair</li>
+        </ul>
+    </nav>
+    <main>
+            <img src="img/menu(1).svg" class="menu_Abrir" onclick="menuAbrir()">
+            <h1 class="centro">Registro de Clientes</h1>
+        <form>
+            <div>
+                <input type="text" placeholder="Nome">
+            </div>
+            <div>
+                <input type="email" placeholder="E-mail">
+            </div>
+            <div>
+                <label>Sexo:</label>
+                <input type="radio" name="sexo" id="m">
+                <label for="m">Masculino</label>
+                <input type="radio" name="sexo" id="f">
+                <label for="f">Feminino</label>
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend>Cursos</legend>
+                    <div>
+                    <input type="checkbox" id="web">
+                    <label for="web">Curso de Programação Web</label>
+                </div>
+                <div>
+                        <input type="checkbox" id="desktop">
+                        <label for="desktop">Curso de Programação Desktop</label>
+                </div>
+                    <div>
+                    <input type="checkbox" id="mobile">
+                    <label for="mobile">Curso de Programação Mobile</label>
+                </div>
+                <div>
+                        <input type="checkbox" id="word">
+                        <label for="word">Word</label>
+                    </div>
+
+                    <div>
+                            <input type="checkbox" id="excel">
+                            <label for="excel">Excel</label>
+                        </div>
+                        <div>
+                                <input type="checkbox" id="outlook">
+                                <label for="otlook">Outlook</label>
+                            </div>
+                            <div>
+                                    <input type="checkbox" id="power">
+                                    <label for="power">PowerPoint</label>
+                                </div>
+                                <div>
+                                        <input type="checkbox" id="pf">
+                                        <label for="pf">PfSense</label>
+                                    </div>
+                                    <div>
+                                            <input type="checkbox" id="zabbix">
+                                            <label for="zabbix">Zabbix</label>
+                                        </div>
+                                        <div>
+                                                <input type="checkbox" id="mikro">
+                                                <label for="mikro">Mikrotik</label>
+                                            </div>
+                                            <div>
+                                                    <input type="checkbox" id="ccna">
+                                                    <label for="ccna">CCNA</label>
+                                                </div>
+                </fieldset>
+                <label>Estado</label>
+                <select>
+                    <option value="">Select</option>
+                    <option value="ms">Mato Grosso do Sul</option>
+                    <option value="rs">Rio Grande do Sul</option>
+                    <option value="pr">Paraná</option>
+                    <option value="mg">Minas Gerais</option>
+                </select>
+            </div>
+            <div>
+                <input type="file">
+            </div>
+            <div>
+                    <input type="datetime-local">
+                </div>
+            <div class="centro">
+                
+                <button>Salvar</button>
+            </div>
+
+        </form>
+    </main>
+
+</body>
+
+</html>

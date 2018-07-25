@@ -1,0 +1,137 @@
+
+    body{
+        font-family: sans-serif;
+    }
+
+        nav{
+            background: url("https://images.pexels.com/photos/257897/pexels-photo-257897.jpeg?auto=compress&cs=tinysrgb&h=350");
+            background-size: cover;
+            float: left;
+            width: 30%;
+            height: 100% ;
+            color: white;
+            box-shadow: 5px 0px 10px gray;
+            overflow: hidden;
+            transition: width 1s;
+        }
+    
+    main{
+        float: right;
+        width: 68%;
+        overflow: hidden;
+        background: url("https://images.pexels.com/photos/399161/pexels-photo-399161.jpeg?auto=compress&cs=tinysrgb&h=350");
+        background-size: cover;
+        height: 100%;
+        transition: width 1s;
+    }
+        .menu_fechar{
+            width: 20px;
+            opacity: 0;
+
+        }
+        .menu_abrir{
+            width: 20px;
+            opacity: 0;
+       
+        }
+        .menu_aberto{
+            width:50%;
+        }
+        .mensagem{
+            display: none;
+            background-color: indianred;
+            animation: anima_mensagem 2s;
+            color: white;
+            padding:20px;
+        }
+        .mensagem img{
+        width: 20px;
+        float: right;
+        cursor:pointer;
+        }
+        .show{
+            display: block;
+        }
+        @keyframes anima_mensagem{
+        from{
+            transform: translate3d(0px, -50px, 0px);
+        opacity: 0;
+        }
+        to{
+        opacity: 1;
+        transform: translate3d(0px,0px,0px)
+        }
+
+        }
+        @media(max-width: 600px){
+        nav{
+            width: 0;
+            
+        }
+            main{
+                width:100%;
+
+            }
+            .menu_fechar{
+            
+                opacity: 1;
+            
+            }
+            .menu_abrir{
+               
+                opacity: 1;
+            }
+            
+                
+            }
+    
+
+
+
+    input[type="email"], input[type="text"]{
+        width: 100%;
+        padding: 10px;
+        
+    }
+    input[type="datetime-local"]{
+        width: 100%;
+    }
+    
+
+    div {
+        padding: 5px;
+        
+    }
+
+    h1{
+        text-align: center;
+    }
+    form{
+         width: 70%;
+         margin: auto;
+    }
+   .centro{
+        text-align: center;
+    }
+    button{
+        background-color: rgb(9, 163, 198);
+        color: white;
+        padding: 10px 20px;
+        cursor: pointer;
+    
+    }
+    nav ul{
+        padding:0;
+    }
+   
+    nav li{
+        list-style: none;
+        cursor: pointer;
+        text-align: center;
+        
+    }
+    nav li:hover{
+        background-color: gainsboro;
+    }
+  
+    

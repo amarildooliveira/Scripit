@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="tela.css">
+    <script src="tela.js"></script>
+    <style>
+        body {
+            background: url("https://cdn.pixabay.com/photo/2018/07/05/16/59/school-3518726__340.jpg");
+            background-size: cover;
+            padding: 100px 20px 20px 20px;
+        }
+
+        #calculadora {
+
+            text-align: center;
+            background-color: whitesmoke;
+            width: 30%;
+            height: 61%;
+            margin: auto;
+        }
+
+        button {
+            box-shadow: 0px 10px 50px gray;
+            width: 100%;
+            padding: 5px;
+            font-weight: 500;
+        }
+
+        input {
+            width: 100%;
+            padding: 5px;
+        }
+
+        #fonte {
+            font-family: cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="calculadora">
+        <div id="fonte">
+            <h1>Caculadora</h1>
+        </div>
+
+        <div>
+            <label>Média</label>
+        </div>
+        <div>
+            <input type="number" id="n1">
+        </div>
+        <div>
+        </div>
+        <div>
+            <input type="number" id="n2">
+        </div>
+        <div>
+            <input type="number" id="n3">
+        </div>
+        <div>
+            <input type="number" id="n4">
+        </div>
+        <div class="centro">
+            <button onclick="t.somar()" id="botao">Calcular</button>
+        </div>
+        <div id="resultado">
+
+        </div>
+        <div id="resultado1">
+
+        </div>
+
+    </div>
+</body>
+
+</html>

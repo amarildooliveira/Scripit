@@ -1,0 +1,75 @@
+
+    nav{
+    height: 100%;
+            width: 30%;
+            float: left;
+            background-color: silver;
+            background: url("https://images.pexels.com/photos/149246/pexels-photo-149246.jpeg?auto=compress&cs=tinysrgb&h=350");
+            background-size: cover;
+            box-shadow: 5px 0px 10px gray;
+            color: ghostwhite;
+            transition: width 1s; 
+            overflow: hidden;
+    }
+
+    main{
+        width:70%;
+        float: right;
+        transition: width 1s;
+    }
+    @media(max-width:600px){
+        nav{
+            width: 0%;
+        }
+        main{
+            width:100%;
+        }
+
+
+    }
+    
+
+    main button{
+        cursor: pointer;
+    }
+    input[type="checkbox"]{
+        cursor: pointer;
+    }
+    div{
+        padding:8px;
+    }
+    nav li{
+        list-style: none;
+        cursor: pointer;
+        padding-top: 1px;
+    }
+
+    nav li:hover{
+    background: steelblue;
+    }
+    nav ul{
+       padding: 0px;
+    }
+    
+
+    input[type="text"], input[type="email"]{
+        width: 100%;
+        padding: 7px;
+    }
+    .central{
+        text-align: center;
+        
+    }
+
+    h1{
+        text-align: center;
+    }
+    form{
+        width: 90%;
+        margin: auto;
+        height: 100%;
+    }
+    body{
+        height: 100%
+    }
+

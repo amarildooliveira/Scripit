@@ -1,0 +1,38 @@
+#Calculadora {
+    background-color: #DAE8FC;
+    /** Cor da página**/
+    width: 40%;
+    /** Porcentegem que as informações da págian irá ocupar**/
+    margin: auto;
+    /** Alinha as margens da página automaticamente**/
+    border-radius: 100px;
+    /** Escolhe a curvatura nos cantos da página**/
+    padding: 100px;
+    /**Espaço entre os margens dentro do div de borda**/
+    text-align: center;
+    /**Alinhamento do texto dentro da página**/
+    cursor: -webkit-grabbing;
+}
+
+#Calculadora button {
+    border-radius: 5px;
+    color: black;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-color: black;
+}
+
+#Calculadora input {
+    border-color: black;
+    width: 100%;
+    padding: 5px;
+}
+
+#Calculadora button {
+    width: 100%;
+    padding: 5px;
+}
+
+#Calculadora div {
+    padding: 3px;
+}

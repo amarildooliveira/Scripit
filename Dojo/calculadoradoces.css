@@ -1,0 +1,21 @@
+body{
+    padding: 100px 100px 100px 100px;
+    background: wheat;
+}
+#centro{
+    padding: 100px 10px 10px 10px;
+    background: steelblue;
+    
+}
+
+div{
+    padding: 3px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+}

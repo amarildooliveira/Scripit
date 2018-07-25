@@ -1,0 +1,88 @@
+nav{
+    color:white;
+    float: left;
+    width: 30%;
+    
+    height: 100%;;
+    transition: width 1s;
+    background: url("https://images.pexels.com/photos/186405/pexels-photo-186405.jpeg?auto=compress&cs=tinysrgb&h=350");
+    background-size:cover;
+    box-shadow:10px 8px 30px black;
+    transition: width 1s;
+    overflow: hidden;
+}
+
+main{
+    float: right;
+    width:69%;
+    height: 100%;
+    transition: width 1s;
+    overflow: hidden;
+    background: url("https://images.unsplash.com/photo-1499988921418-b7df40ff03f9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b9b0bd8bc4bc9635191c7200f4e2be1d&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    
+}
+.menu_Abrir{
+    opacity: 0;
+    width: 20px;
+}
+.menu_Fechar{
+    opacity:0;
+    width: 20px;
+}
+.menuAberto{
+    width: 50%;
+}
+@media(max-width: 600px){
+    nav{
+        width: 0%;
+    }
+    main{
+        width:100%;
+    }
+    .menu_Abrir{
+        opacity: 1;
+        
+    }
+    .menu_Fechar{
+        opacity:1;
+        
+    }
+   
+
+}
+nav ul{
+    padding: 0;
+}
+nav li{
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+
+}
+nav li:hover{
+    background: steelblue;
+}
+div{
+    padding:3px;
+}
+input[type="text"], input[type="email"]{
+    padding: 10px;
+    width: 100%;
+}
+.centro{
+    text-align: center;
+}
+button{
+    background: rgb(6, 137, 243);
+    color: white;
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    cursor: pointer;
+
+}
+body{
+    font-family: serif;
+}
+

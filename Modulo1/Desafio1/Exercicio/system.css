@@ -1,0 +1,54 @@
+
+nav{
+text-align: center;
+float: left;
+width: 30%;
+background: url("https://images.unsplash.com/photo-1499988921418-b7df40ff03f9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b9b0bd8bc4bc9635191c7200f4e2be1d&auto=format&fit=crop&w=500&q=60");
+background-size: cover;
+height: 100%;
+color: white;
+box-shadow: 5px 8px 20px black;
+
+}
+main{
+    float: right;
+    width: 69%;
+    background: url("https://images.unsplash.com/photo-1511406239133-2c1130a2d754?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=87122fc6e7fde24cc6fc019d6d1b91cd&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    height: 100%;
+}
+@media(max-width: 600px){
+    nav{
+        width: 0%;
+    }
+main{
+    width:100%;
+}
+}
+nav li{
+    list-style:none;
+    cursor: pointer;
+}
+nav li:hover{
+    background: silver;
+}
+main div{
+    padding: 5px;
+}
+input[type="text"], input[type="email"]{
+    width: 100%;
+    padding: 10px;
+
+}
+input[type="radio"], input[type="checkbox"]{
+    cursor: pointer;
+}
+nav ul{
+    padding: 0;
+}
+.centro{
+    text-align: center;
+}
+button{
+    cursor: pointer;
+}

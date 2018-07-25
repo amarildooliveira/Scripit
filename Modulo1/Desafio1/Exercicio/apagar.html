@@ -1,0 +1,86 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styleapaga.css">
+</head>
+<body>
+    <nav class="central">
+        <img src="" alt="">
+        <h2>MenuTest</h2>
+        <ul>
+            <li>Conta</li>
+            <li>Professor</li>
+            <li>Aluno</li>
+            <li>Sair</li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Cadastro de clientes</h1>
+        <form>
+            <div>
+                <input type="text" placeholder="Nome">
+            </div>
+            <div>
+                <input type="email" placeholder="E-mail">
+            </div>
+            <div>
+                <label>Sexo:</label>
+                <input type="radio" name="sexo" id="m">
+                <label for="m">Masculino</label>
+                <input type="radio" name="sexo" id="f">
+                <label for="f">Feminino</label>
+            </div>
+            <fieldset>
+                <div>
+                    <legend>Cursos</legend>
+                    <input type="checkbox" id="word">
+                    <label for="word">Word</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="excel">
+                    <label for="excel">Excel</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="paint">
+                    <label for="paint">PowerPoint</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="out">
+                    <label for="out">Outlook</label>
+                </div>
+            </fieldset>
+            <div>
+                <label>Estado</label>
+                <select>
+                    <option value="" selected>Select</option>
+                    <option value="ms">Mato Grosso do Sul</option>
+                    <option value="rs">Rio Grande do Sul</option>
+                    <option value="mt">Mato Grosso</option>
+                    <option value="pr">Paraná</option>
+                    <option value="sc">Santa Catarina</option>
+                    <option value="bh">Bahia</option>
+                    <option value="ro">Rondonia</option>
+                    <option value="rm">Roraima</option>
+                    <option value="pe">Pernambuco</option>
+                    <option value="to">Tocantins</option>
+                    <option value="es">Espirito Santo</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="mg">MInas Gerais</option>
+                    <option value="sp">São Paulo</option>
+                </select>
+            </div>
+            <div>
+                <label for="d">Data</label>
+                <input type="datetime-local" id="d">
+            </div>
+            <div>
+                <label>Foto</label>
+                <input type="file">
+            </div>
+            <div class="central">
+                <button>Salvar</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

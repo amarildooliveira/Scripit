@@ -1,0 +1,32 @@
+body{
+padding: 200px 10px 10px 10px;
+background:url("https://cdn.pixabay.com/photo/2018/02/19/10/36/paper-3164718__340.jpg");
+background-size: cover;
+
+}
+.centro{
+    text-align: center;
+    background-color: gainsboro;
+    margin: auto;
+    width: 25%;
+    height: 30%;
+    padding: 50px 30px 60px 30px;
+}
+button{
+    width: 100%;
+    background-color:steelblue;
+    padding: 5px;
+}
+input{
+    width: 100%;
+    padding: 5px;
+}
+div{
+    padding: 3px;
+}
+img{
+    height: 50px;
+}
+.centro label{
+    font-family: sans-serif;
+}
